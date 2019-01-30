@@ -1,0 +1,11 @@
+[ssh]
+ip = "123.45.678.923"
+port = "22"
+user = "user name"
+identityFile = "/Users/Yourname/.ssh/id_rsa"
+
+[mysql]
+mysqlConf = "/mysql/conf/mysql.conf"
+database = "test_db"
+dumpDir = "/Users/Yourname/sql/"
+dumpFilePrefix = "test_db_"
